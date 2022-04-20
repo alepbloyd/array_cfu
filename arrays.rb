@@ -24,3 +24,11 @@ array_of_floats[0]
 
 array_of_booleans[5]
 #above example will return nil because there is no array_of_booleans[5]
+
+#.include?(object) method checks if the object is included anywhere in the called array, and returns true if found and false if not
+
+array_of_floats.include?(3.3)
+#above example returns true because 3.3 is in the called array
+
+array_of_floats.include?("footlong subway sandwich")
+#above example returns false because the string "footlong subway sandwich" is not in the called array
